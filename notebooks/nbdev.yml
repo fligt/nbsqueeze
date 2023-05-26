@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbsqueeze"
+  site-url: "https://fligt.github.io/nbsqueeze"
+  description: "A small Python package to minimize the file size of Jupyter notebooks by extracting figures."
+  repo-branch: master
+  repo-url: "https://github.com/fligt/nbsqueeze"
