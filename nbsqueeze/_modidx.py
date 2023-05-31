@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://fligt.github.io',
                 'git_url': 'https://github.com/fligt/nbsqueeze',
                 'lib_path': 'nbsqueeze'},
-  'syms': {'nbsqueeze.core': {'nbsqueeze.core.foo': ('core.html#foo', 'nbsqueeze/core.py')}}}
+  'syms': { 'nbsqueeze.squeeze': { 'nbsqueeze.squeeze.export_pngs': ('extract.html#export_pngs', 'nbsqueeze/squeeze.py'),
+                                   'nbsqueeze.squeeze.find_pngs': ('extract.html#find_pngs', 'nbsqueeze/squeeze.py'),
+                                   'nbsqueeze.squeeze.make_img_dir': ('extract.html#make_img_dir', 'nbsqueeze/squeeze.py'),
+                                   'nbsqueeze.squeeze.replace_strings': ('extract.html#replace_strings', 'nbsqueeze/squeeze.py')}}}
