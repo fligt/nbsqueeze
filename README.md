@@ -9,7 +9,7 @@ stored within the notebook file as base64 encoded text strings. A
 downside to this approach is that Jupyter notebooks with many plots
 easily become quite large. Uploading such large notebook files to github
 and subsequent testing and rendering of such notebooks to produce
-documentation soon becomes intolerably slow.
+documentation soon becomes intolerably slow…
 
 This small Python package `nbsqueeze` is created to reduce the file size
 of Jupyter notebooks by extracting embedded images as separate image
