@@ -13,17 +13,8 @@ documentation soon becomes intolerably slow…
 
 This small Python package `nbsqueeze` is created to reduce the file size
 of Jupyter notebooks by extracting embedded images as separate image
-files. My plan is to make the package available via the [Python Package
-index](https://pypi.org) soon!
+files. This open source package available via the Python Package index
+<https://pypi.org>.
 
-## Install
-
-**Coming soon!**
-
-``` sh
-pip install nbsqueeze
-```
-
-## How to use
-
-Here is a code example soon…
+For documentation and source code see
+[github](https://fligt.github.io/nbsqueeze/).
