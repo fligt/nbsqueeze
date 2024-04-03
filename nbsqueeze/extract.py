@@ -14,7 +14,7 @@ import glob
 
 # %% ../notebooks/00_extract.ipynb 15
 def find_png_strings(nb_path): 
-    '''Find cells with base64 image/png strings in `notebook_file`.
+    '''Find cells with inline base64 image/png strings in `notebook_file`.
     
     Returns: [[cell_idx, md5, base64_string], ...]'''
     
@@ -43,7 +43,7 @@ def find_png_strings(nb_path):
                     base64_string = output['data']['image/png']
                     png_strings.append(base64_string) 
             
-                # interactive matplotlib figure
+                # old school interactive matplotlib figure 
                 except: 
                     try: 
                         html_string = output['data']['text/html']
